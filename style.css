@@ -1,0 +1,65 @@
+*{
+    margin: 0 auto;
+    
+}
+body{
+    background-image: url(https://storge.pic2.me/upload/978/5eca43c65c781.jpg);
+}
+.radio p{
+    margin: 0;
+    padding: 0;
+}
+form{
+    border: 2px solid black;
+    background-image:url(https://img1.akspic.ru/originals/9/8/9/0/1/110989-monoxromnyj_rejim-kamennaya_stena-tekstura-dizajn-dorozhnoe_pokrytie-3840x2160.jpg) ;
+    width: 500px;
+    height: 100%;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+form div{
+    width: 200px;
+    margin: 0 auto;
+}
+.name_pls::placeholder{
+    text-align: center;
+}
+.email_pls::placeholder{
+    text-align: center;
+}
+.password_pls::placeholder{
+    text-align: center;
+}
+.text textarea{
+    width: 201px;
+    height: 60px;
+}
+.golovnoe{
+    text-align: center;
+    color: blanchedalmond;
+}
+.radio{
+    border: 2px solid black;
+    background-color: rgba(0, 255, 255, 0.308);
+    color: blanchedalmond;
+}
+.checkbox{
+    border: 2px solid black;
+    background-color: rgba(0, 255, 255, 0.096);
+    color: blanchedalmond;
+
+}
+.button{
+    display: flex;
+}
+.true{
+    background-color:rgba(0, 0, 139, 0.288);
+    color: rgb(255, 255, 255);
+}
+.false{
+    background-color: rgba(139, 0, 0, 0.288);
+    color: rgb(255, 255, 255);
+}
+.user_color{
+    align-items: center;
+}
